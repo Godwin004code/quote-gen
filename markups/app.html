@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#92c063">
+    <link rel="stylesheet" href="/fontawesome-free-6.0.0-beta2-web/fontawesome-free-6.0.0-beta2-web/css/fontawesome.min.css">
+    <link rel="stylesheet" href="/fontawesome-free-6.0.0-beta2-web/fontawesome-free-6.0.0-beta2-web/css/solid.min.css">
+    <link rel="stylesheet" href="/aos-master/aos-master/dist/aos.css">
+    <link rel="stylesheet" href="/style/app.css">
+    <title>Random Quotes Generator</title>
+    <style>
+        .back a {
+            color: white;
+            font-size: 25px;
+        }
+        .back {
+          position: absolute;
+           left: 2%;
+           top: 3%;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="back">
+        <a href="/index.html">
+        <i class="fas fa-caret-left"></i>
+        </a>
+    </div>
+    <div class="quotes-container">
+        <h2>Generate your quotes</h2>
+        <div class="input">
+        <input type="number" id="quotes-input" placeholder="Enter any number..">
+        <button id="quotes-btn">Generate</button>
+    </div>
+        <div>
+            <img src="" alt="">
+        </div>
+        <div class="output">
+        <div class="img-text" >
+            <div class="img">
+                <img src="/quotes-imgs/images (1).jpeg" alt="">
+            </div>
+            <div class="text">
+                
+                    <p>
+                      <i class="fas fa-quote-left"></i>  My mission in life is not merely to survive, but to thrive.
+                      <i class="fas fa-quote-right"></i>
+                    </p>
+                    <h2>Maya Angeolu</h2>
+               
+            </div>
+        </div>
+        </div>
+    </div>
+    <script src="/scripts/app.js"></script>
+    <script src="/aos-master/aos-master/dist/aos.js"></script>
+    <script>
+        AOS.init()
+    </script>
+</body>
+</html>
